@@ -20,6 +20,8 @@ GEM
     parslet (1.2.3)
       blankslate (~> 2.0)
     pdfkit (0.5.2)
+    pdfkit-heroku (0.1.2)
+      pdfkit
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -54,6 +56,7 @@ DEPENDENCIES
   heroku
   nokogiri
   pdfkit
+  pdfkit-heroku
   rmagick
   showoff
   thin
