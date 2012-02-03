@@ -60,23 +60,13 @@ Francis Chong
     vagrant up
 
 !SLIDE
-
-## 登入 ssh
-
-    vagrant ssh
-    cd /vagrant
-    sudo apt-get install ...
-
-!SLIDE
-  
 ## Vagrantfile
 
     > ls
     Vagrantfile
 
 !SLIDE
-
-## Basic Config
+## Basic Config ##
 
     @@@ ruby
     Vagrant::Config.run do |config|
@@ -85,8 +75,14 @@ Francis Chong
     end
 
 !SLIDE
+## Box customization ##
+    @@@ruby
+    Vagrant::Config.run do |config|
+      config.vm.provision :shell, :inline => "echo foo > /vagrant/test"
+    end
 
-## Port Forwarding
+!SLIDE
+## Port Forwarding ##
 
     @@@ ruby
     Vagrant::Config.run do |config|
@@ -98,8 +94,7 @@ Francis Chong
     end
 
 !SLIDE
-
-## Share Folder
+## Share Folder ##
 
     @@@ ruby
     Vagrant::Config.run do |config|
@@ -129,8 +124,14 @@ Francis Chong
     end
 
 !SLIDE
+## 登入 ssh ##
 
-## 包裝自己的 Vagrant Box
+    vagrant ssh
+    cd /vagrant
+    sudo apt-get install ...
+
+!SLIDE
+## 包裝自己的 Vagrant Box ##
 
     > vagrant package  
     => package.box
