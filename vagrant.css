@@ -25,11 +25,11 @@ code {
   font-size: 0.65em;
 }
 
-.opening h1 {
+.impact h1, .content > p.huge {
   font-size: 10em;
 }
 
-.caption p {
+.impact p {
   z-index: 100;
   position: absolute;
   right: 0;
@@ -63,7 +63,7 @@ code {
   background-position: top left;
 }
 
-.full-page-image p:not(:first-child) {
+.full-page-image p:not(:first-child), .content > p.caption {
   position: relative;
   opacity: .6;
   top: -4em;
@@ -88,4 +88,9 @@ code {
   left: 0px;
   width: 100%;
   padding: 0.1em 0 0.3em 0;
+}
+
+.full-page-image.mi h1 {
+  font-size: 8em;
+  top: -0.3em;
 }

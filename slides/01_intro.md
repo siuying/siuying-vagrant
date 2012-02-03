@@ -1,4 +1,4 @@
-!SLIDE opening
+!SLIDE impact
 # 用 Vagrant 快速 建立開發環境 #
 
 ## Francis Chong ##
@@ -6,7 +6,7 @@
 !SLIDE
 # 開發網路軟件 #
 
-!SLIDE
+!SLIDE impact
 
 # 問題 #
 
@@ -15,36 +15,36 @@
 # 複雜的開發環境 #
 ![](dependencies.png)
 
-.caption [Quad boot Macbook by foskarulla, on Flickr](http://www.flickr.com/photos/foskarulla/231022011)
-
-!SLIDE
-
-## 設定需時 ##
+!SLIDE full-page-image
 ![](mac_stack.jpg)
 
-.caption [Stack o' Mac by tdhedengren, on Flickr](http://www.flickr.com/photos/tdhedengren/5138982641/)
+[Stack o' Mac by tdhedengren, on Flickr](http://www.flickr.com/photos/tdhedengren/5138982641/)
+
+# 設定需時 #
 
 !SLIDE
-
-## 版本差異 ##
+# 版本差異 #
 ![](mysql.png)
 
 !SLIDE
 
-## 要在工作機上運行所有 Server 嗎？##
+# 在工作機上運行所有 Server？！#
 ![](processes.png)
 
-!SLIDE
-## 作業系統問題 ##
+!SLIDE full-page-image
 
 ![](multi_boot.jpg)
 
-!SLIDE full-page-image
+[Quad boot Macbook by foskarulla, on Flickr](http://www.flickr.com/photos/foskarulla/2310220114/)
+
+# 作業系統問題 #
+
+!SLIDE full-page-image mi
 ![](mission_impossible.jpg)
-# Mission Impossible #
 
+# MISSION IMPOSSIBLE #
 
-!SLIDE
+!SLIDE impact
 
 # 解決方法？ #
 
