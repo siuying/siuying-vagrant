@@ -6,13 +6,9 @@ gem 'nokogiri'
 gem 'showoff'
 gem 'gli'
 gem 'heroku'
-  
+gem 'pdfkit'
+
 group :heroku do
-  gem 'pdfkit-heroku'
+  gem 'wkhtmltopdf-binary'
   gem 'rmagick'
-end
-
-
-group :development do
-  gem 'pdfkit'
 end
