@@ -1,0 +1,91 @@
+/* The Yanone-Kaffeesatz font is Yanone's http://www.yanone.de/ */
+@font-face {
+   font-family: YanoneKaffeesatz;
+   src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
+}
+@font-face {
+   font-family: YanoneKaffeesatz;
+   src: url("fonts/YanoneKaffeesatz-Bold.ttf") format("truetype");
+   font-weight: bold;
+}
+
+#preso {
+  font-family: YanoneKaffeesatz, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+code {
+  font-size: 0.65em;
+}
+
+.opening h1 {
+  font-size: 10em;
+}
+
+.caption p {
+  z-index: 100;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* full-page-image */
+
+.full-page-image img:first-child {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.full-page-image img.cc {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+.full-page-image p {
+  margin: 0 0 0 0;
+}
+
+.full-page-image p:not(:first-child),
+.full-page-image h1,
+.full-page-image h2 {
+  z-index: 1;
+  background-image: url('white.png');
+  background-position: top left;
+}
+
+.full-page-image p:not(:first-child) {
+  position: relative;
+  opacity: .6;
+  top: -4em;
+  padding: 0.4em 0.9em 0.4em 0.9em;
+  color: dark-grey;
+  font-size: 1em;
+  float: right;
+}
+
+.full-page-image h1 {
+  position: absolute;
+  top: 1em;
+  left: 0px;
+  width: 100%;
+  padding: 0.3em 0 0.2em 0;
+  text-transform: uppercase;
+}
+
+.full-page-image h2 {
+  position: absolute;
+  top: 4em;
+  left: 0px;
+  width: 100%;
+  padding: 0.1em 0 0.3em 0;
+}

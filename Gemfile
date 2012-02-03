@@ -1,4 +1,6 @@
 source :rubygems
+
+gem 'thin'
 gem 'pdfkit'
 gem 'bluecloth'
 gem 'nokogiri'

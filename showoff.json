@@ -1,1 +1,6 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{ 
+  "name": "用 Vagrant 快速建立開發環境", 
+  "sections": [ 
+    {"section": "slides"} 
+  ]
+}
