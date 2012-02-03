@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/jdpace/PDFKit.git
+  revision: f468adae4bc4e991614a0d0e0a29efeef3e817c9
+  specs:
+    pdfkit (0.5.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -19,7 +25,6 @@ GEM
     nokogiri (1.5.0)
     parslet (1.2.3)
       blankslate (~> 2.0)
-    pdfkit (0.5.2)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -54,7 +59,7 @@ DEPENDENCIES
   gli
   heroku
   nokogiri
-  pdfkit
+  pdfkit!
   rmagick
   showoff
   thin
