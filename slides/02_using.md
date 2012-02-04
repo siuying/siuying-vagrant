@@ -88,7 +88,6 @@
 ## 自家的 Box Server  ##
 
 !SLIDE
-
 ## 作業流程 (1) ##
 
     @@@ sh
@@ -97,7 +96,6 @@
     git push origin master
 
 !SLIDE
-
 ## 作業流程 (2) ##
 
     @@@ sh
@@ -107,19 +105,22 @@
     cd /vagrant
     rails s
 
-!SLIDE 
-.huge 立即可用
-
 !SLIDE
-.huge 完全一樣
-的    
-開發環境
+## 暫停開發 ##
 
+    @@@ sh
+    vagrant suspend
+    vagrant resume
+    
 !SLIDE
-# [vagrantup.com](http://vagrantup.com/) #
+## 開發完成 ##
 
+    @@@ sh
+    vagrant halt
+    vagrant destroy
+    
 !SLIDE
-# Contact #
+## 重新開始 ##
 
-- [twitter.com/siuying](http://twitter.com/siuying)
-- [ruby-hk.org](http://ruby-hk.org)
+    @@@ sh
+    vagrant up

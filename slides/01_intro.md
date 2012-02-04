@@ -1,7 +1,7 @@
 !SLIDE impact
 # 用 Vagrant 快速 建立開發環境 #
 
-## Francis Chong ##
+## Francis Chong (@siuying) ##
 
 !SLIDE
 # 開發網路軟件 #
