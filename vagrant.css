@@ -38,7 +38,7 @@ code {
 
 /* full-page-image */
 
-.full-page-image img:first-child {
+.full-page-image img {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -93,4 +93,35 @@ code {
 .full-page-image.mi h1 {
   font-size: 8em;
   top: -0.3em;
+}
+/* fix */
+.slide > div {
+	margin-top: auto !important;
+}
+.slide > div {
+  display: box !important;
+        display: -moz-box  !important;  
+        display: -webkit-box !important;
+  box-orient: vertical;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+  /* and vertically as well ... \o/ */
+  box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+  box-pack: center;
+	-moz-box-pack: center;
+	-webkit-box-pack: center;
+	width:100%;
+	height: 100%;
+}
+.slide > div.full-page-image {
+ 	-moz-box-align: stretch;
+	-webkit-box-align: stretch;
+	box-align: stretch;
+}
+.slide > .full-screen-image.image-only {
+  	box-pack: start;
+	-moz-box-pack:  start;
+	-webkit-box-pack:  start;
 }
