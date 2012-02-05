@@ -80,7 +80,7 @@
     $ vagrant package  
     package.box
 
-!SLIDE full-screen-image
+!SLIDE full-screen-image image-only
 ![](vagrantboxes.png)
 
 !SLIDE full-screen-image
