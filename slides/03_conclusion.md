@@ -1,4 +1,4 @@
-!SLIDE 
+!SLIDE center
 .huge 總結
 
 !SLIDE full-page-image
@@ -29,11 +29,11 @@
 ## 獨立 ##
 [box cat by dreamattack, on Flickr](http://www.flickr.com/photos/dreamattack/6797716413/)
 
-!SLIDE
+!SLIDE center
 # [vagrantup.com](http://vagrantup.com/) #
 
 
-!SLIDE
+!SLIDE center
 .huge Whats Next?
 
 !SLIDE
@@ -43,7 +43,7 @@
 - Chef/Puppet
 - Vagrantfile
 
-!SLIDE
+!SLIDE center
 # 版本控制 #
 
 !SLIDE
@@ -63,7 +63,7 @@
     @@@ ruby
     java -jar waton.jar
 
-!SLIDE
+!SLIDE center
 
 .huge ~ the end ~
 

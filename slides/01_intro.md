@@ -3,10 +3,10 @@
 
 ## Francis Chong (@siuying) ##
 
-!SLIDE
+!SLIDE center
 # 開發網路軟件 #
 
-!SLIDE impact
+!SLIDE impact center
 
 # 問題 #
 
@@ -27,9 +27,9 @@
 ![](mysql.png)
 
 !SLIDE
-
 # 在工作機上運行所有 Server？！#
 ![](processes.png)
+
 
 !SLIDE full-page-image
 
@@ -44,24 +44,23 @@
 
 # MISSION IMPOSSIBLE #
 
-!SLIDE impact
+!SLIDE impact center
 
 # 解決方法？ #
 
-!SLIDE
+!SLIDE center
 ## Virtualization ##
 ![](virtualbox.png)
 
-!SLIDE full-screen-image
-
+!SLIDE center
 # Vagrant #
 ![](vagrant_chilling.png)
 
-!SLIDE
+!SLIDE center
 
 # 甚麼是 Vagrant ？ #
 
-!SLIDE
+!SLIDE center
 
 ## 一套建立和管理虛擬機的軟件 ##
 

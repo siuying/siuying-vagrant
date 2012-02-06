@@ -98,10 +98,10 @@ code {
 .slide > div {
 	margin-top: auto !important;
 }
-.slide > div {
+.slide > .slide .center {
   display: box !important;
-        display: -moz-box  !important;  
-        display: -webkit-box !important;
+  display: -moz-box  !important;  
+  display: -webkit-box !important;
   box-orient: vertical;
 	-moz-box-orient: vertical;
 	-webkit-box-orient: vertical;
@@ -115,6 +115,7 @@ code {
 	width:100%;
 	height: 100%;
 }
+
 .slide > div.full-page-image {
  	-moz-box-align: stretch;
 	-webkit-box-align: stretch;
