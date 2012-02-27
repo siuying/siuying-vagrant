@@ -15,7 +15,6 @@
 
 !SLIDE
 # a complex environment #
-.sub with many different servers
 ![](dependencies.png)
 
 !SLIDE center
