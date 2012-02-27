@@ -1,18 +1,22 @@
 !SLIDE impact
-# 用 Vagrant 快速 建立開發環境 #
+# Using Vagrant to build a development environment #
 
 ## Francis Chong (@siuying) ##
 
 !SLIDE center
-# 開發網路軟件 #
+# We build mobile apps #
+
+!SLIDE center
+# ... that talk to servers#
+
 
 !SLIDE impact center
 
-# 問題 #
+# Problem #
 
 !SLIDE
 
-# 複雜的開發環境 #
+# Polygot environment #
 ![](dependencies.png)
 
 !SLIDE full-page-image
@@ -20,14 +24,14 @@
 
 [Stack o' Mac by tdhedengren, on Flickr](http://www.flickr.com/photos/tdhedengren/5138982641/)
 
-# 設定需時 #
+## Setup takes time ##
 
 !SLIDE
-# 版本差異 #
+## Version changes ##
 ![](mysql.png)
 
 !SLIDE
-# 在工作機上運行所有 Server？！#
+## Install all those servers on your PC?! ##
 ![](processes.png)
 
 
@@ -37,7 +41,7 @@
 
 [Quad boot Macbook by foskarulla, on Flickr](http://www.flickr.com/photos/foskarulla/2310220114/)
 
-# 作業系統問題 #
+## OS dependencies ##
 
 !SLIDE full-page-image mi
 ![](mission_impossible.jpg)
@@ -46,7 +50,7 @@
 
 !SLIDE impact center
 
-# 解決方法？ #
+# Solution? #
 
 !SLIDE center
 ## Virtualization ##
@@ -58,9 +62,9 @@
 
 !SLIDE center
 
-# 甚麼是 Vagrant ？ #
+# What is Vagrant ？ #
 
-!SLIDE center
+!SLIDE center left
 
-## 一套建立和管理虛擬機的軟件 ##
+## A tool for building and distributing virtualized development environments. ##
 

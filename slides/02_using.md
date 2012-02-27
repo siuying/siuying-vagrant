@@ -1,5 +1,5 @@
 !SLIDE
-## 安裝和執行 ##
+## Installation and Usage ##
 
     @@@ sh
     gem install vagrant
@@ -7,7 +7,7 @@
     vagrant init lucid32
 
 !SLIDE
-## 登入 ssh ##
+## ssh ##
     @@@ sh
     vagrant up
     vagrant ssh
@@ -15,13 +15,13 @@
     sudo apt-get install ...
 
 !SLIDE
-## 設定檔 ##
+## Config File ##
 
     $ ls
     Vagrantfile
 
 !SLIDE
-## 基本設定 ##
+## Setup ##
 
     @@@ ruby
     Vagrant::Config.run do |config|
@@ -30,7 +30,7 @@
     end
 
 !SLIDE
-## 自訂 box ##
+## Customize box ##
     @@@ruby
     Vagrant::Config.run do |config|
       config.vm.provision :shell, 
@@ -42,15 +42,15 @@
 
     @@@ ruby
     Vagrant::Config.run do |config|
-      config.vm.forward_port "rails", 3000, 3000
-      config.vm.forward_port "mongo", 27017, 27017
-      config.vm.forward_port "mongo-http", 28017, 28017
-      config.vm.forward_port "redis", 6379, 6379  
-      config.vm.forward_port "memcached", 11211, 11211
+      config.vm.forward_port 3000, 3000
+      config.vm.forward_port 27017, 27017
+      config.vm.forward_port 28017, 28017
+      config.vm.forward_port 6379, 6379  
+      config.vm.forward_port 11211, 11211
     end
 
 !SLIDE
-## 共用資料夾 ##
+## Share Folder ##
 
     @@@ ruby
     Vagrant::Config.run do |config|
@@ -59,7 +59,7 @@
 
 !SLIDE
 
-## 控制多個 VM ##
+## Control Multiple VMs ##
 
     @@@ ruby
     Vagrant::Config.run do |config|
@@ -75,7 +75,7 @@
     end
 
 !SLIDE
-## 包裝自己的 Vagrant Box ##
+## Package your own box ##
 
     $ vagrant package  
     package.box
@@ -85,10 +85,10 @@
 
 !SLIDE full-screen-image
 ![](vagrantbox2.png)
-## 自家的 Box Server  ##
+## Self Hosting Box Server  ##
 
 !SLIDE
-## 作業流程 (1) ##
+## Workflow (1) ##
 
     @@@ sh
     git add Vagrantfile
@@ -96,7 +96,7 @@
     git push origin master
 
 !SLIDE
-## 作業流程 (2) ##
+## Workflow (2) ##
 
     @@@ sh
     git pull
@@ -106,21 +106,21 @@
     rails s
 
 !SLIDE
-## 暫停開發 ##
+## Pause ##
 
     @@@ sh
     vagrant suspend
     vagrant resume
     
 !SLIDE
-## 開發完成 ##
+## Complete ##
 
     @@@ sh
     vagrant halt
     vagrant destroy
     
 !SLIDE
-## 重新開始 ##
+## Restart ##
 
     @@@ sh
     vagrant up
