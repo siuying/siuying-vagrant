@@ -1,13 +1,13 @@
 !SLIDE
-## Installation and Usage ##
+## Install and Run ##
 
     @@@ sh
     gem install vagrant
     vagrant box add lucid32 http://.../lucid32.box
     vagrant init lucid32
 
-!SLIDE
-## ssh ##
+!SLIDE shell
+## ssh to your box is easy ##
     @@@ sh
     vagrant up
     vagrant ssh
@@ -54,7 +54,8 @@
 
     @@@ ruby
     Vagrant::Config.run do |config|
-      config.vm.share_folder "v-root", "/vagrant", "."
+      config.vm.share_folder "v-root", "/vagrant", 
+        ".", :nfs => true
     end
 
 !SLIDE
@@ -64,12 +65,12 @@
     @@@ ruby
     Vagrant::Config.run do |config|
       config.vm.define :web do |web_config|
-        web_config.vm.network "33.33.33.10"
+        web_config.vm.network :hostonly, "33.33.33.10"
         web_config.vm.box = "web"
       end      
 
       config.vm.define :db do |db_config|
-        db_config.vm.network "33.33.33.11"
+        db_config.vm.network :hostonly, "33.33.33.11"
         db_config.vm.box = "mongo"
       end
     end

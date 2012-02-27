@@ -9,24 +9,50 @@
    font-weight: bold;
 }
 
+.slide {
+  background: #fff;
+  color: #000;
+}
+
+.ign {
+  color: #FE6500;
+}
+
 #preso {
   font-family: YanoneKaffeesatz, Helvetica, Arial, sans-serif;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 8em;
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 6em;
 }
 
 code {
   font-size: 0.65em;
 }
 
-.impact h1, .content > p.huge {
+p.sub {
+  font-size: 4em;
+  color: #666;
+  margin-top: -1em;
+}
+
+.title h1, .impact h1, p.impact {
   font-size: 10em;
+}
+
+.title h2 {
+  font-size: 4em;
+  font-weight: normal;
+  margin-top: -1em;
+  color: #666;
+}
+
+.content > p.huge {
+  font-size: 12em;
 }
 
 .impact p {
@@ -94,7 +120,7 @@ code {
   font-size: 8em;
   top: -0.3em;
 }
-/* fix */
+
 .slide > div {
 	margin-top: auto !important;
 }
@@ -114,15 +140,4 @@ code {
 	-webkit-box-pack: center;
 	width:100%;
 	height: 100%;
-}
-
-.slide > div.full-page-image {
- 	-moz-box-align: stretch;
-	-webkit-box-align: stretch;
-	box-align: stretch;
-}
-.slide > .full-screen-image.image-only {
-  	box-pack: start;
-	-moz-box-pack:  start;
-	-webkit-box-pack:  start;
 }

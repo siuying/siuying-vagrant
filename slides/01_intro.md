@@ -1,5 +1,5 @@
-!SLIDE impact
-# Using Vagrant to build a development environment #
+!SLIDE title
+# Use <span class="ign">Vagrant</span> to <br>build a development<br> environment #
 
 ## Francis Chong (@siuying) ##
 
@@ -9,30 +9,42 @@
 !SLIDE center
 # ... that talk to servers#
 
+!SLIDE center
 
-!SLIDE impact center
-
-# Problem #
+.huge Problem
 
 !SLIDE
-
-# Polygot environment #
+# a complex environment #
+.sub with many different servers
 ![](dependencies.png)
+
+!SLIDE center
+# Shared environment environment? #
+
+!SLIDE 
+![](cheese.jpg)
+## It will be moved by someone ##
+
+!SLIDE center
+# Install a dev environment for each developer? #
+
+!SLIDE
+.huge ... a difficult task
 
 !SLIDE full-page-image
 ![](mac_stack.jpg)
 
 [Stack o' Mac by tdhedengren, on Flickr](http://www.flickr.com/photos/tdhedengren/5138982641/)
 
-## Setup takes time ##
+## Takes time to setup ##
 
 !SLIDE
-## Version changes ##
+## Server version changes ##
 ![](mysql.png)
 
 !SLIDE
-## Install all those servers on your PC?! ##
-![](processes.png)
+## Always run all servers?! ##
+![](dependencies.png)
 
 
 !SLIDE full-page-image
@@ -41,7 +53,7 @@
 
 [Quad boot Macbook by foskarulla, on Flickr](http://www.flickr.com/photos/foskarulla/2310220114/)
 
-## OS dependencies ##
+## dependencies / conflicts ##
 
 !SLIDE full-page-image mi
 ![](mission_impossible.jpg)
@@ -62,9 +74,9 @@
 
 !SLIDE center
 
-# What is Vagrant ？ #
+# What is Vagrant? #
 
-!SLIDE center left
+!SLIDE center
 
-## A tool for building and distributing virtualized development environments. ##
+## A tool for <span class="ignition">building</span> and <span class="ignition">distributing</span> virtualized development environments. ##
 
