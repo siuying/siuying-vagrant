@@ -1,5 +1,5 @@
 { 
-  "name": "用 Vagrant 快速建立開發環境", 
+  "name": "Use Vagrant to build a development environment", 
   "sections": [ 
     {"section": "slides"} 
   ]

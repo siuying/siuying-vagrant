@@ -49,7 +49,7 @@
 
 .impact Executable Boxes: [wanton](https://github.com/maestrodev/wanton)
 
-Publisable Java jar, with build in Vagrant Box and web based interface.
+Publishable jar with build-in Vagrant Box and web based interface.
 
 !SLIDE
 # Packaging #

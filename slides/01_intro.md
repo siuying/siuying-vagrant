@@ -4,7 +4,7 @@
 ## Francis Chong (@siuying) ##
 
 !SLIDE center
-# We build mobile apps #
+# I build mobile apps #
 
 !SLIDE center
 # ... that talk to servers#
